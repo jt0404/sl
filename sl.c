@@ -403,6 +403,6 @@ void add_smoke(int y, int x)
         S[sum].y = y;    S[sum].x = x;
         S[sum].ptrn = 0; S[sum].kind = sum % 2;
         sum ++;
-        sl %= 1000;
+        sum %= 1000;
     }
 }
